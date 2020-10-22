@@ -6,6 +6,25 @@ date: '2020-10-16'
 
 # 项目进度
 
+### 1021
+- 完成 server side 上传NBR Data的功能
+
+
+### 1020
+- Add change day line
+
+### 1019
+- 把clusterDefinitionWidget改成Qdialog
+- 编写ListDialog
+
+
+### 1016
+- 编写可查询可排序的tableview
+- 完成自定义cluster功能
+
+### 1015
+- cluster 完成
+- improved autocomplete performance
 ### 1015
 - cluster 完成
 - improved autocomplete performance
