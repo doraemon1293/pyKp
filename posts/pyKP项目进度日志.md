@@ -1,10 +1,17 @@
 ---
 title: 'pyKP项目进度日志'
 author: '黄炎'
-date: '2020-10-16'
+date: '2020-10-28'
 ---
 
 # 项目进度
+### 1027
+- 解决某些field的数据被转换成string的bug
+
+
+### 1022
+- checkbox daybyday功能
+- 2G TRX TAB
 
 ### 1021
 - 完成 server side 上传NBR Data的功能
@@ -22,9 +29,8 @@ date: '2020-10-16'
 - 编写可查询可排序的tableview
 - 完成自定义cluster功能
 
-### 1015
-- cluster 完成
-- improved autocomplete performance
+
+
 ### 1015
 - cluster 完成
 - improved autocomplete performance
@@ -129,16 +135,19 @@ date: '2020-10-16'
 
 # Todo
 - [ ] Add Export charts function
+- [ ] Add Export table tab function
 - [ ] Keep cell name & site for different tab
-- [ ] 添加Cluster支持
 - [ ] Multi-Cell
 - [ ] Worst Cell
-- [ ] Export
-- [ ] Add change day line
-- [ ] 2G TRX TAB
-- [ ] HO/NB
+- [ ] 2G HO/NB tab
+- [ ] 4G HO/NB tab
+- [ ] ttm report
+- [ ] ppo report
 
-
+- [x] 2G TRX TAB
+- [x] server side upload NBR data
+- [x] Add change day line
+- [x] 添加Cluster支持
 - [x] 添加Layer支持
 - [x] 读取ep添加带宽+layer 信息
 - [x] Compose template for 2G/4G
@@ -167,7 +176,7 @@ date: '2020-10-16'
 |   cell  |     X    |     X    |     X   |      X   |    X    |    X     |
 |   site  |     X    |     X    |     X   |      X   |    X    |    X     |
 | cluster |    X     |     X     |    X     |      X    |    X     |   X       |
-|  layer  |    -     |    -      |     x   |      x    |    -    |     -    |
+|  layer  |    -     |    -      |     X   |     X    |    -    |     -    |
 
 # Notes
 - Qual & MCS	12	DL ReTXN Shares	QPSK 原公式错误
