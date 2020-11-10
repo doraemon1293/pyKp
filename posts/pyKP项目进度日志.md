@@ -1,13 +1,39 @@
 ---
 title: 'pyKP项目进度日志'
 author: '黄炎'
-date: '2020-10-28'
+date: '2020-11-04'
 ---
 
 # 项目进度
+
+### 1104
+- ppo report
+  - [x] validate input
+  - [x] layout 
+  - [x] 确定ppo report 配置输入格式
+  - [ ] 输出到表格
+  - [ ] 输出图片
+
+
+### 1103
+- 完成服务器端上传isdp report的代码
+- 去掉table tab里的filter功能
+
+### 1102
+- fix a bug in cluster definition
+
+### 1030
+- 完成4G Intra HO/NB 编写
+- 完成4G IRAT 2/3G HO/NB 编写
+
+
+### 1029
+- 2G HO/NB TAB
+- 修复4g eth中的原始数据将NaN存储为0的bug
+- 修复2G NBR原始数据中将NaN存储为/0的bug
+
 ### 1027
 - 解决某些field的数据被转换成string的bug
-
 
 ### 1022
 - checkbox daybyday功能
@@ -139,11 +165,13 @@ date: '2020-10-28'
 - [ ] Keep cell name & site for different tab
 - [ ] Multi-Cell
 - [ ] Worst Cell
-- [ ] 2G HO/NB tab
-- [ ] 4G HO/NB tab
 - [ ] ttm report
 - [ ] ppo report
+- [ ] add neighbour cluster 是不是只考虑4g/2g邻区 最多的6个站
 
+
+- [x] 2G HO/NB tab
+- [x] 4G HO/NB tab
 - [x] 2G TRX TAB
 - [x] server side upload NBR data
 - [x] Add change day line
