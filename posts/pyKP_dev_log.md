@@ -37,7 +37,7 @@ Client Side: Pyqt Pandas Matplotlib Openpyxl Mongodb
 
 # 项目进度
 ### 1204
-全部完成
+Completed
 
 ### 1104
 - ppo report
