@@ -18,17 +18,17 @@ Client Side: Pyqt Pandas Matplotlib Openpyxl Mongodb
 >All the data are randomised generated and only for demo.
 
 - General Interface
-![](/static/23bd0fdc.png)
+![General Interface](/static/23bd0fdc.png)
 
 - ALl the kpi /formula and the way to visualise can be customised by editing the excel template file(name and formula are blurred for confidentiality)
-![](./img/ec6ce601.png)
+![kpi template](/static/ec6ce601.png)
 
 - Define your own cluster
-![](./img/fc65359c.png)
+![cluster definition](/static/fc65359c.png)
 
 - Pre/Post report
-![](./img/7a3a6cb3.png)
-![](./img/a4a785f0.png)
+![Pre/Post report](/static/7a3a6cb3.png)
+![Pre/Post report](/static/a4a785f0.png)
 
 
 
